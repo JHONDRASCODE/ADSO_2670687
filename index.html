@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dragon</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-            <h1> Concepto de Git</h1>
+            <h1 id="t1">Concepto de Git</h1>
             <h2> Concepto de Git</h2>
             <h3> Concepto de Git</h3>
             <h4> Concepto de Git</h4>
             <h5> Concepto de Git</h5>
             <h6> Concepto de Git</h6>
-    <p>  Git es un sistema de control de versiones distribuido ampliamente utilizado en el desarrollo de software. Permite a los desarrolladores realizar un seguimiento de los cambios en sus archivos y colaborar eficientemente en proyectos en equipo. </p>
-    <h2> Principales comandos de git </h2>
+    <p class="p1"> Git es un sistema de control de versiones distribuido ampliamente utilizado en el desarrollo de software. Permite a los desarrolladores realizar un seguimiento de los cambios en sus archivos y colaborar eficientemente en proyectos en equipo. </p>
+    <h2 class="pcg">Principales comandos de git </h2>
     <ul>
         <li> <strong>GIT INIT:</strong> Este comando funciona para iniciar un proyecto con GIT  </li>
         <li> <strong>GIT ADD:</strong> Este comando funciona para todos los documentos en el area de reparacion </li>
@@ -112,10 +113,10 @@
           </form>
           <label for="">Digite Nombre</label>
           <input type="text" name="nombre" id="nombre" placeholder="Escriba su Nombre" required=""> <br><br>
-          <label for="email">email</label>
-          <input type="email" name="emial" id="emial" placeholder="Escriba su emial" required=""> <br><br>
+          <label for="email">Email</label>
+          <input type="email" name="emaill" id="email" placeholder="Escriba su Email" required=""> <br><br>
         
-          <label for="*****">contraseña</label> <br> <br>
+          <label for="*****">Contraseña</label> <br> <br>
           <input type="password" id="password" name="password" placeholder="********"required=""> <br><br>
           <label for="Fecha">Fecha</label>
           <input type="date" name="trip-start" id="start" value="" min="2000-01-01" max="2030-01-01" required=""> <br> <br>
@@ -123,20 +124,34 @@
           <input type="number" name="numero" id="numero" value="" min="0" max="99999" required="" > <br> <br>
           <label for="Rango">Rango</label>
           <input type="range" name="rango" id="rango" value="" min="0" max="10" step="1" > <br> <br>
-          <label for="telefono">telefono</label>
+          <label for="telefono">Telefono</label>
           <input type="number" name="Numero" id="nuemro" value="" min="0" max="99999"> <br> <br>
-          <label for="Checkbox">Elige</label>
-          <input type="radio" name="radio" id="radio" value="1"> burger <br> <br>
-          <input type="radio" name="radio" id="radio" value="2"> Pizza <br> <br>
-
-        
-          
-          
-          
-          
-          
-          
-          
+          <label for="Checkbox">Elige</label> <br> <br>
+          <input type="radio" name="radio" id="radio" value="1">Futbol <br> <br>
+          <input type="radio" name="radio" id="radio" value="2"> basketbol <br> <br>
+          <input type="radio" name="radio" id="radio" value="3"> tenis <br> <br>
+          <label for="">Lista desplegable</label> <br> <br>
+          <select>
+            <option value="opcion 1">perro calinte</option>
+            <option value="opcion 2">salchipapa</option>
+            <option value="opcion 3">Hamburguesa</option>
+            <option value="opcion 4">Coca-cola</option>
+          </select>
+          <label for="">Cargar archivo</label>
+          <input type="file" name="archivo" id="archivo" placeholder="file" required=""> <br> <br>     
           <button value="registrar">Registrar</button>
+
+
+<h2>ETIQUETAS DE VIDEOS</h2>
+
+<video src="videos/promo.mp4" width="480" height="480" controls></video>
+
+<h3>Auidios</h3>
+
+<audio src="audios/himno.mp3"controls></audio>
+
+
+
+
 </body>
 </html>
